@@ -33,6 +33,8 @@ TEMPLATE_DIRS = (
     )
 # Application definition
 
+DATABASE_PATH = os.path.join(BASE_DIR, 'rango.db')
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
